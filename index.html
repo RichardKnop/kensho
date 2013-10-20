@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Kensho</title>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css" rel="stylesheet">
+    <link href="css/stylesheets/ie.css" rel="stylesheet">
+    <link href="css/stylesheets/print.css" rel="stylesheet" media="print">
+    <link href="css/stylesheets/screen.css" rel="stylesheet">
+    <link href="bower_components/pikaday/css/pikaday.css" rel="stylesheet">
+</head>
+<body>
+<h1>Kensho</h1>
+<form id="filterForm" class="pure-form">
+    <select name="symbol" id="symbol">
+        <option value="AAPL">Apple</option>
+        <option value="GOOG">Google</option>
+        <option value="YHOO">Yahoo</option>
+        <option value="MSFT">Microsoft</option>
+    </select>
+    <input type="text" id="startDate" value="2013-01-01" class="pure-input-rounded">
+    <input type="text" id="endDate" value="2013-09-01" class="pure-input-rounded">
+    <button type="submit" class="pure-button pure-button-primary" id="filter">Submit</button>
+</form>
+<script data-main="js/src/bootstrap" src="bower_components/requirejs/require.js"></script>
+</body>
+</html>
